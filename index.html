@@ -10,7 +10,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #ffffff; /* LIGHT BACKGROUND */
+            background: #ffffff; 
             color: #333;
         }
 
@@ -18,7 +18,7 @@
         header {
             position: sticky;
             top: 0;
-            background: #f0f0f0; /* LIGHT NAVBAR */
+            background: #f0f0f0;
             color: #333;
             padding: 18px 20px;
             display: flex;
@@ -55,11 +55,11 @@
         /* HERO */
         .hero {
             height: 80vh;
-            background: #f7f9fc; /* VERY LIGHT BLUE SHADE */
+            background: #f7f9fc;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items : center;
             text-align: center;
             padding: 20px;
         }
@@ -98,14 +98,16 @@
         }
 
         /* SKILLS */
-        .skills ul {
+        .skills ul, .interests ul, .awards ul {
             list-style: none;
             padding: 0;
             max-width: 400px;
             margin: auto;
         }
 
-        .skills ul li {
+        .skills ul li,
+        .interests ul li,
+        .awards ul li {
             background: #f1f1f1;
             padding: 10px;
             margin: 10px 0;
@@ -130,7 +132,7 @@
             font-size: 18px;
         }
 
-        /* LINKEDIN BUTTON */
+        /* BUTTONS */
         .linkedin-btn {
             display: inline-block;
             background: #0077b5;
@@ -157,6 +159,8 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#interests">Interests</a>
+            <a href="#awards">Awards</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -176,7 +180,7 @@
         <p>
             I'm Farhana AK, a B.Tech IT student at Calicut Institute of Engineering and Technology.
             I enjoy web development, problem solving, and building beginner-level projects.
-            Iam currently exploring HTML,CSS,Python,Java,and DBMS,and I look forward to gaining
+            I am currently exploring HTML, CSS, Python, Java, and DBMS, and I look forward to gaining
             real-world experience through internships.
         </p>
     </section>
@@ -191,6 +195,27 @@
             <li>C / C++</li>
             <li>PHP</li>
             <li>DBMS</li>
+        </ul>
+    </section>
+
+    <!-- INTERESTS -->
+    <section id="interests" class="interests">
+        <h1>Interests</h1>
+        <ul>
+            <li>Web Development</li>
+            <li>Event Management</li>
+            <li>Public Speaking</li>
+            <li>Problem Solving</li>
+            <li>Learning New Technologies</li>
+        </ul>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards" class="awards">
+        <h1>Awards & Achievements</h1>
+        <ul>
+            <li>National Level Techfest <b>Diksha</b> – Coordinator</li>
+            <li>State Level English Elocution – Participant</li>
         </ul>
     </section>
 
@@ -218,23 +243,20 @@
     <section id="contact" class="contact">
         <h1>Contact Me</h1>
         <p>Email: <b>farhanaazeez23@gmail.com</b></p>
-        <p>Phone:<b>+91 9496961823 </b></p>
+        <p>Phone: <b>+91 9496961823</b></p>
         <p>Location: Calicut, Kerala</p>
 
-        <!-- LINKEDIN BUTTON -->
         <p>
             <a class="linkedin-btn" href="http://linkedin.com/in/farhana-ak-881847333" target="_blank">
                 Visit My LinkedIn Profile
             </a>
         </p>
 
-        <!-- GITHUB BUTTON-->
-         <p>
+        <p>
             <a class="linkedin-btn" href="https://github.com/farhanaazeez" target="_blank">
-                    Visit My GitHub Profile
-
+                Visit My GitHub Profile
             </a>
-         </p>
+        </p>
     </section>
 
 </body>
